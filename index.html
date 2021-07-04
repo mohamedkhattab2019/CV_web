@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstarp/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Mostafa</title>
+</head>
+
+<body>
+    <!-- Nav bar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+        <div class="container">
+            <span id="navBrand"><a href="#home" class="navbar-brand">Mostafa</a></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation"><span
+                    class="navbar-toggler-icon"></span></button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mx-auto"></div>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#skills">Skills</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Section1 -->
+    <section class="row" id="home">
+        <div class="container" style="position: relative; height: 100vh;">
+            <div class="row justify-content-around align-self-center p-5" style="position: absolute; top: 30%;">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 align-self-center">
+                    <h1>Mohamed Khattab</h1>
+                    <h3>I'm a <span style="color: #17a2b8; font-weight: bold;">full-stack</span> Developer </h3>
+                    <a class="btn btn-info mt-3 ml-2" href="#about">Hire me</a>
+                </div>
+                <img style="opacity: 0;" class="col-4 pt-sm-5 pt-sm-5 col-sm-4 col-md-6 col-lg-6 profilePicHome"
+                    src="assets/img/Avatar33.png" alt="img" srcset="">
+            </div>
+        </div>
+    </section>
+    <!-- Section2 -->
+    <section class="row align-items-center" id="about">
+        <div class="container" style="height: auto;">
+            <div class="row align-self-center justify-content-around">
+                <div style="opacity: 0; position: relative;"
+                    class="col-12 col-sm-12 col-md-5 col-lg-5 p-3 p-md-5 p-lg-5 mt-1 faddedLeft" align="center">
+                    <img class="profilePicAbout" src="assets/img/Avatar33.png"
+                        style="width: 100%; border-radius: 50%; border: 2px solid #17a2b8;" alt="">
+                </div>
+                <div style="opacity: 0; position: relative;"
+                    class="col-12 col-sm-12 col-md-7 col-lg-7 align-self-center faddedRight">
+                    <h3 style="color: #17a2b8;">Front-End Developer</h3>
+                    <p class="mt-4">Hi, I'm Khattab and I'm passionate about all things JavaScript, I work hard, I care
+                        about writing
+                        clean code and i genuinely love to learn. I'm currently looking for the right opportunity to
+                        work in an environment that will help me progress into a full-stack role</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12  col-sm-12  col-md-7 col-lg-7 p-md-5 p-lg-5 faddedLeft"
+                    style="opacity: 0; position: relative; ">
+                    <div class="row justify-content-around">
+                        <p class="info"><i class="fa fa-birthday-cake"> </i> 17 Sep 1994</p>
+                        <p class="info"><i class="fa fa-envelope-open-text"> </i> crsabdallah@yahoo.com</p>
+                        <p class="info"><i class="fa fa-globe"> </i> mostafaabdalla.netlify.app</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Section3 -->
+    <section id="skills" class="row align-items-center">
+        <div class="container" style="height: auto;">
+            <h1 style="text-align: center;" class="p-2 mb-3">Sklills</h1>
+            <div  class="row align-self-center justify-content-around ">
+                <div class="col-12 col-sm-12 col-lg-7 col-md-12 animate skillsChart">
+                    <canvas class="chart mb-5"></canvas>
+                </div>
+                <div class="col-12 col-sm-12 col-lg-5 col-md-12">
+                    <div class="row skillsDiv justify-content-around">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section4 -->
+    <!-- <section id="projects" class="row align-items-center">
+        <div class="container" style="height: auto;">
+            <div  class="row align-self-center justify-content-around ">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" style="padding: 0 !important;">
+                    <div class="card">
+                        <h5 class="card-header" style="color: dimgray;">My Projects</h5>
+                        <div class="card-body">
+                            <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators1" data-slide-to="1" class=""></li>
+                                    <li data-target="#carouselExampleIndicators1" data-slide-to="2" class=""></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" src="assets/img/Postone.jpg" alt="First slide">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h3 class="text-white">Project1</h3>
+                                            <p>Mauris fermentum elementum ligula in efficitur. Aliquam id congue lorem. Proin consectetur feugiat enim ut luctus. Aliquam pellentesque ut tellus ultricies bibendum.</p>
+                                            <button class="btn btn-info p-2">View</button>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="assets/img/PostThree.jpg" alt="Second slide">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h3 class="text-white">Project2</h3>
+                                            <p>Mauris fermentum elementum ligula in efficitur. Aliquam id congue lorem. Proin consectetur feugiat enim ut luctus. Aliquam pellentesque ut tellus ultricies bibendum.</p>
+                                            <button class="btn btn-info p-2">View</button>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="assets/img/PostTwo.jpg" alt="Third slide">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h3 class="text-white">Project3</h3>
+                                            <p>Mauris fermentum elementum ligula in efficitur. Aliquam id congue lorem. Proin consectetur feugiat enim ut luctus. Aliquam pellentesque ut tellus ultricies bibendum.</p>
+                                            <button class="btn btn-info p-2">View</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                   <span class="sr-only">Previous</span>  </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>  </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/bootstarp/js/bootstrap.min.js"></script>
+    <script src="assets/bootstarp/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/Chart.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
+
+<html>
