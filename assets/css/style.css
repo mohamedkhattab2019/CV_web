@@ -1,0 +1,86 @@
+html{
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+body{
+    color: white;
+    overflow-x: hidden;
+}
+section{
+    scroll-snap-align: center;
+}
+#home{
+    background-image: url(../img/IMG_3638.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+#home h1{
+    font-family: cursive;
+    padding: 10px;
+}
+#home h3{
+    font-family: cursive;
+    padding: 10px;
+}
+
+#about{
+    background-image: url(../img/Structure1.JPG);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.info{
+    font-size: 20px;
+}
+
+@media (max-width: 576px){
+    .info{
+        padding-top:  10px;
+        font-size: 13px;
+    }
+    .profilePicHome{
+        display: none;
+    }
+    h1{
+        font-size: 20px;
+    }
+    #home .container .row{
+        width: inherit !important;
+    }
+}
+
+@media (max-width:768px){
+    .profilePicAbout{
+        width: 50% !important;
+    }
+}
+
+#about .container, #skills .container ,#projects .container{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#about h4{
+    padding: 10px;
+}
+i{
+    color: #17a2b8;
+}
+
+#skills{
+    background-image: url(../img/Profile.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+
+#projects{
+    background-image: url(../img/Login.JPG);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 100% 100%;
+    height: 100vh;
+}
