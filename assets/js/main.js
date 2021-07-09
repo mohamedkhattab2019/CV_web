@@ -23,10 +23,10 @@ $(document).ready(function () {
 
     //---------------------SkillsChart -------------------------------//
     var data = {
-        labels: ['Front-End', 'Back-End','Database'],
+        labels: ['python', 'Model-based-control','Database','Embeded-sys'],
         datasets: [{
-            data: [60,30,10],
-            backgroundColor: ['#007bff','#6f42c1','#ffc107'],
+            data: [40,30,10,20],
+            backgroundColor: ['#dc3545','#007bff','#6f42c1','#ffc107'],
             borderWidth:1,
             color:'#ffffff'
         }],
@@ -49,13 +49,18 @@ $(document).ready(function () {
 
 
     var skills = [
+        { name: 'Python', value: 90, color: '#dc3545', animDir: "animate" },
+        { name: 'ROS', value: 50, color: '#dc3545', animDir: "animate" },
+        { name: 'SQL Server', value: 75, color: '#e83e8c', animDir: "animate" },
+        { name: 'C', value: 60, color: '#dc3545', animDir: "animate" },
+        { name: 'EmbededSystem', value: 60, color: '#dc3545', animDir: "animate" },
+        { name: 'Model Based Control', value: 60, color: '#dc3545', animDir: "animate" },
+        { name: 'PHP', value: 60, color: '#17a2b8', animDir: "animate" },
         { name: 'HTML', value: 90, color: '#dc3545', animDir: "animate" },
         { name: 'CSS', value: 85, color: '#28a745', animDir: "animate" },
         { name: 'JavaScript', value: 85, color: '#ffc107', animDir: "animate" },
         { name: 'Jquery', value: 80, color: '#007bff', animDir: "animate" },
         { name: 'Bootstrap', value: 90, color: '#6f42c1', animDir: "animate" },
-        { name: 'SQL Server', value: 75, color: '#e83e8c', animDir: "animate" },
-        { name: 'PHP', value: 60, color: '#17a2b8', animDir: "animate" },
       
     ]
     //---------------------------Skills---------------------------//
